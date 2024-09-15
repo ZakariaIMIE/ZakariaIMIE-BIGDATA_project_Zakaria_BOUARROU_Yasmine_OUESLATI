@@ -1,0 +1,108 @@
+body, html {
+  background:#001427;
+}
+.App {
+  background-attachment: fixed; /* Fixer l'image de fond pour qu'elle reste fixe pendant le défilement */
+  margin: 0; /* Supprimer les marges par défaut */
+  padding: 0; /* Supprimer les rembourrages par défaut */
+  text-align: center;
+  background-image: url('./bank.jpg');
+  background-blend-mode: color-burn;
+  background-repeat: repeat-y; /* Répéter l'image uniquement verticalement */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir la fenêtre */
+}
+
+/* principale page container */
+.menu1 {
+  width: 100%;
+  color:white;
+  min-height: 87vh;
+}
+
+.menu1 .nav-link {
+  color: white; /* Couleur du texte personnalisée */
+}
+
+.menu1 .nav-link:hover{
+  color: yellow; /* Couleur du texte personnalisée */
+}
+
+
+.page-1 {
+  text-align: left;
+  color:white;
+  min-height: 82vh;
+}
+
+.page-2 {
+  text-align: left;
+  color:white;
+  width: 50%;
+  margin-top:2vh;
+  min-height: 82vh;
+}
+
+.page-3 {
+  text-align: left;
+  color:white;
+  min-height: 90vh;
+}
+
+.footer-all {
+  color:#03071e;
+  background-color: #a8dadc;
+  height: 8vh;
+  opacity:0.7;
+  margin-top:10%;
+}
+
+.menu2 {
+  padding:5%;
+}
+
+
+.Auth-form-container {
+  width: 25%;
+  margin-top:7%;
+  margin-left:10%;
+  padding-bottom: 9.5%;
+}
+
+.signout {
+  float: right;
+}
+
+.Auth-form-title {
+  color:white;
+}
+
+/*info welcoming :*/
+.home2 {
+  background-color: rgba(14, 30, 31, 0.9);
+  padding:2%;
+  width: 40%;
+}
+
+.home2 h1 {
+  opacity:1;
+}
+
+.solvable{
+  width: 33%;
+  padding: 2%;
+  background-color: rgb(27, 122, 78 , 0.4);
+  margin: 5%;
+  display: float ;
+  position: absolute;
+  text-align: center;
+}
+
+.NONsolvable{
+  width: 40%;
+  padding: 2%;
+  background-color: rgba(122, 36, 10, 0.6);
+  margin: 5%;
+  position: absolute;
+  text-align: center;
+} 
+
